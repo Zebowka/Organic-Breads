@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Index/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <title>Document</title>
+    <style>
+        .active{
+            color: #D23166;
+        }
+        .nav-link1{
+            color: grey;
+        }
+        .btn-pink{
+            background-color: #D23166;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="../images/logo.png" alt="" width="80" height="80" class="d-inline-block align-text-top">
+          </a>
+          </button>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link1" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link1" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link1" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-link1" href="#">Contact Us</a>
+              </li>
+          </ul>
+          <button type="button" class="btn btn-pink">Buy Now</button>
+        </div>
+      </nav>
+     <!--/navbar-->
+
+    </div>
+    <script src="../Index/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
