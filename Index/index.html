@@ -25,12 +25,18 @@
         .position{
             margin-top: -4vh;
         }
+        .placement2{
+          margin-top: 30vh;
+        }
+        .anim1:hover{
+          box-shadow: 3px 2px 8px 3px rgba(178, 178, 178, 0.2);
+        }
     </style>
 </head>
 <body>
-    <div class="container">
 
       <!-- Navbar-->
+       <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -61,12 +67,13 @@
           </div>
         </div>
       </nav>
+    </div>
       <!-- /Navbar-->
       
      <!-- home page -->
       <div class="bg-pink2 position">
-        <div class="row container">
-            <div class="col">
+        <div class="row placement offset-1 container">
+            <div class="col col-5 placement2">
                 <p>Sweet fun, full of milk.</p>
                 <h1 class="fw-bolder fs-1">
                     Feel inside cold with our delicious 
@@ -74,14 +81,66 @@
                 </h1>
             </div>
 
-            <div class="col ">
-                <img src="../images/image.png" alt="">
+            <div class="col col-4">
+                <img src="../images/image.png" style="width: 36vw;" alt="">
             </div>
         </div>
       </div>
+
+      <!-- home-bottom -->
+       <div class="container mt-3">
+        <div class="row ">
+          <div class="col anim1 text-center">
+            <div class=" text-center" style="width: 18rem;">
+              <img src="../images/car.png" style="width: 5vw;" alt="car">
+              <div class="card-body">
+                <h3>Free Shipping</h3>
+                <p>
+                  Last Chance! Free shipping on all orders ends today.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col anim1 text-center">
+            <div class=" text-center" style="width: 18rem;">
+              <img src="../images/Group (2).png" style="width: 3.5vw;" alt="car">
+              <div class="card-body">
+                <h3>Quick Packaging</h3>
+                <p>
+                  Last Chance! Free shipping on all orders ends today.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col anim1 text-center">
+            <div class=" text-center" style="width: 18rem;">
+              <img src="../images/cash-back.png" style="width: 5vw;" alt="car">
+              <div class="card-body">
+                <h3>Free Shipping</h3>
+                <p>
+                  Last Chance! Free shipping on all orders ends today.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col anim1 text-center">
+            <div class=" text-center" style="width: 18rem;">
+              <img src="../images/car.png" style="width: 5vw;" alt="car">
+              <div class="card-body">
+                <h3>Free Shipping</h3>
+                <p>
+                  Last Chance! Free shipping on all orders ends today.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      <!-- /home-bottom -->
+
      <!-- /home page -->
 
-    </div>
+
     <script src="../Index/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
