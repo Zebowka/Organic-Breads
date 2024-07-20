@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../Index/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <title>Document</title>
     <style>
-        .active{
+        .active1{
             color: #D23166;
         }
         .nav-link1{
@@ -22,42 +22,49 @@
         .bg-pink2{
             background-color: #FCF1F4;
         }
+        .position{
+            margin-top: -4vh;
+        }
     </style>
 </head>
 <body>
     <div class="container">
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg">
+      <!-- Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#">
             <img src="../images/logo.png" alt="" width="80" height="80" class="d-inline-block align-text-top">
           </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link1" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link1" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link1" href="#">Testimonials</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link nav-link1" href="#">Contact Us</a>
+          <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav justify-content-center me-auto mb-2 mb-lg-0">
+              <li class="nav-item justify-content-center">
+                <a class="nav-link active1" aria-current="page" href="#">Home</a>
               </li>
-          </ul>
-          <button type="button" class="btn btn-pink text-light">Buy Now</button>
+              <li class="nav-item justify-content-center">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item justify-content-center">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item justify-content-center">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item justify-content-center">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-pink text-light">Buy Now</button>
+          </div>
         </div>
       </nav>
-     <!--/navbar-->
-
+      <!-- /Navbar-->
+      
      <!-- home page -->
-      <div class="bg-pink2 ">
+      <div class="bg-pink2 position">
         <div class="row container">
             <div class="col">
                 <p>Sweet fun, full of milk.</p>
