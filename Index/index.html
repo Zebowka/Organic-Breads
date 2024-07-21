@@ -85,6 +85,12 @@
           border-color: #FFA3A3;
           padding: 2vh 2vw;
         }
+        .ipt_btn{
+          border-color: #FFA3A3;
+        }
+        .ct_us_btn{
+          background-color: #D64374;
+        }
     </style>
 </head>
 <body>
@@ -381,11 +387,11 @@
           <h1 class="mt-5">Have Question in Mind?</h1>
           <h1>Let us help you</h1>
 
-          <div class="row">
-            <div class="col">
+          <div class="row justify-content-center">
+            <div class="col col-md-4">
               <input type="number" placeholder="Your phone number"  class="form-control ipt_number" name="number" id="">
             </div>
-            <div class="col">
+            <div class="col col-md-4">
               <select name="number" class="form-select ipt_number" id="">
                 <option value="wenj">Question type</option>
                 <option value="wenj">about cash</option>
@@ -393,6 +399,21 @@
                 <option value="wenj">about ...</option>
               </select>
             </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col col-8">
+            <div class="input-group mb-3 mt-3">
+              <input type="text" class="form-control ipt_number" aria-label="Text input with dropdown button">
+              <button class="btn btn-outline-secondary ipt_btn" type="button ct_us_btn">Send</button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </div>
+          </div>
           </div>
         </div>
      <!-- /Type questions-section -->
