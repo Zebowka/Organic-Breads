@@ -4,14 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Index/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap" rel="stylesheet">
     <title>Document</title>
     <style>
+      @media only screen and (max-width: 990px){
+        .placement2{
+          margin-top: -20vh;
+        }
+        .placement3_brn-brd{
+          margin-top: -10vh;
+        }
+      }
+        .placement2{
+          margin-top: 30vh;
+        }
+        .placement3_brn-brd{
+          margin-top: 15vh;
+        }
         .active1{
             color: #D23166;
+        }
+        .active2{
+          text-decoration: underline;
+          text-decoration-color: #D23166;
+          color: black;
         }
         .nav-link1{
             color: grey;
         }
+
         .btn-pink{
             background-color: #D23166;
             padding-left: 30px;
@@ -25,9 +48,18 @@
         .position{
             margin-top: -4vh;
         }
-        .placement2{
-          margin-top: 30vh;
+        .nunito {
+          font-family: "Nunito", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 900;
         }
+        .abel-regular {
+          font-family: "Abel", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 12px;
+        }
+
         .anim1{
           padding: 3vh ;
         }
@@ -74,27 +106,27 @@
       <!-- /Navbar-->
       
      <!-- home page -->
-      <div class="bg-pink2 position">
+      <div class="bg-pink2">
+      <div class="container position">
         <div class="row offset-1 container">
-            <div class="col align-middle col-md-5 col-sm-10 col-12 ">
-                <p>Sweet fun, full of milk.</p>
-                <h1 class="fw-bolder fs-1">
+            <div class="col placement2 align-middle col-lg-5 col-md-10 col-sm-11 col-12 ">
+                <p class="abel-regular">Sweet fun, full of milk.</p>
+                <h1 class="fw-bolder nunito fs-1">
                     Feel inside cold with our delicious 
-                    <span class="active">ice-cream.</span>
+                    <span class="active1">ice-cream.</span>
                 </h1>
             </div>
 
-            <div class="col col-md-5 col-sm-10 col-12">
+            <div class="col col-lg-5 col-md-10 col-sm-11 col-12">
                 <img src="../images/image.png" style="width: 36vw;" alt="">
             </div>
         </div>
       </div>
-
+    </div>
       <!-- home-bottom -->
-       <div class="container mt-3">
-        <div class="row ">
-          <div class="col anim1 text-center">
-            <div class=" text-center" style="width: 18rem;">
+       <div class="container justify-content-center mt-3">
+        <div class="row text-center justify-content-center">
+          <div class="col text-center justify-content-center col-lg-3 col-md-6  col-sm-10 col-12 anim1 text-center">
               <img src="../images/car.png" style="width: 5vw;" alt="car">
               <div class="card-body">
                 <h3>Free Shipping</h3>
@@ -102,10 +134,8 @@
                   Last Chance! Free shipping on all orders ends today.
                 </p>
               </div>
-            </div>
           </div>
-          <div class="col anim1 text-center">
-            <div class=" text-center" style="width: 18rem;">
+          <div class="col text-center col-lg-3 col-md-6 col-sm-10 col-12 anim1 text-center">
               <img src="../images/Group (2).png" style="width: 3.5vw;" alt="car">
               <div class="card-body">
                 <h3>Quick Packaging</h3>
@@ -113,10 +143,8 @@
                   Last Chance! Free shipping on all orders ends today.
                 </p>
               </div>
-            </div>
           </div>
-          <div class="col anim1 text-center">
-            <div class=" text-center" style="width: 18rem;">
+          <div class="col col-lg-3 col-md-6 col-sm-10 col-12 anim1 text-center">
               <img src="../images/cash-back.png" style="width: 4.8vw;" alt="car">
               <div class="card-body">
                 <h3>100% Money Back</h3>
@@ -124,10 +152,8 @@
                   Last Chance! Free shipping on all orders ends today.
                 </p>
               </div>
-            </div>
           </div>
-          <div class="col anim1 text-center">
-            <div class=" text-center" style="width: 18rem;">
+          <div class="col col-lg-3 col-md-6 col-sm-10 col-12 anim1 text-center">
               <img src="../images/fast-delivery 1.png" style="width: 4.5vw;" alt="car">
               <div class="card-body">
                 <h3>Fast Delivery</h3>
@@ -135,7 +161,6 @@
                   Last Chance! Free shipping on all orders ends today.
                 </p>
               </div>
-            </div>
           </div>
         </div>
        </div>
@@ -147,7 +172,7 @@
       <div class="bg-pink2 mt-5">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col placement3_brn-brd col-lg-5 col-md-10 col-sm-11 col-12 ">
               <h1 class="wf-bolder">Brown Sugar Oatmea</h1>
               <p>
                 Together with McDonald’s, Burger King has grown to
@@ -155,7 +180,7 @@
                  with McDonald’s, Burger King has grown to become synonymous.
               </p>
           </div>
-          <div class="col">
+          <div class="col col-lg-5 col-md-10 col-sm-11 col-12">
             <img src="../images/image copy.png" class="img-fluid" alt="">
           </div>
         </div>
@@ -163,7 +188,29 @@
     </div>
 
     <!-- Brn-sr-bottom -->
-     
+     <div class="container mt-5">
+      <h1 class="text-center"><b>Our Product</b></h1>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active2" aria-current="page" href="#">ICE CREAM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">CAYENNE CHOCOLATE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-dark" href="#">CAKE BATTER</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">CANDY CANE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">PLATTERS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">DESSERT</a>
+        </li>
+      </ul>
+    </div>
     <!-- /Brn-sr-bottom -->
 
      <!-- /Brown suger -->
