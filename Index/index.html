@@ -34,7 +34,9 @@
         .nav-link1{
             color: grey;
         }
-
+        .btn-pink:hover{
+          background-color: #f62d70;
+        }
         .btn-pink{
             background-color: #D23166;
             padding-left: 30px;
@@ -78,6 +80,10 @@
         .prple{
           color: orangered;
           font-weight: 900;
+        }
+        .ipt_number{
+          border-color: #FFA3A3;
+          padding: 2vh 2vw;
         }
     </style>
 </head>
@@ -314,7 +320,7 @@
      <!-- /Brown suger -->
 
      <!-- Ordering Food -->
-        <div class="bg-pink3 mt-5">
+        <div class="bg-pink2 mt-5">
           <div class="container mt-3">
             <div class="row justify-content-center">
 
@@ -369,6 +375,27 @@
           </div>
         </div>
      <!-- /Ordering Food -->
+
+     <!-- Type questions-section -->
+        <div class="container text-center mt-5">
+          <h1 class="mt-5">Have Question in Mind?</h1>
+          <h1>Let us help you</h1>
+
+          <div class="row">
+            <div class="col">
+              <input type="number" placeholder="Your phone number"  class="form-control ipt_number" name="number" id="">
+            </div>
+            <div class="col">
+              <select name="number" class="form-select ipt_number" id="">
+                <option value="wenj">Question type</option>
+                <option value="wenj">about cash</option>
+                <option value="wenj">about location</option>
+                <option value="wenj">about ...</option>
+              </select>
+            </div>
+          </div>
+        </div>
+     <!-- /Type questions-section -->
 
 
     <script src="../Index/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
