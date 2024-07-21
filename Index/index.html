@@ -71,6 +71,10 @@
         .anim1:hover{
           box-shadow: 3px 2px 8px 3px rgba(178, 178, 178, 0.2);
         }
+        .prple{
+          color: orangered;
+          font-weight: 900;
+        }
     </style>
 </head>
 <body>
@@ -284,14 +288,41 @@
               <p><small class="text-secondary">Uzbek</small></p>
             </div>
           </div>
-          <div class="row">
-            <p>
+            <p class="col-8">
+              <span class="prple">"</span>
               Thanks a lot for the prompt service.
               Really appreciate. Excellence taste
               in Every Bite.Add a joy of best Taste.
               Foodie Moments.
+              <span class="prple">"</span>
             </p>
-          </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../images" class="d-block w-1" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
         </div>
 
         <div class="col col-md-5 col-sm-10 col-12">
